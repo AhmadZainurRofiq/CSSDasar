@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+</head>
+<body>
+<!-- form : form login, pendaftaran/
+registrasi dll -->
+<!-- elemen di dalam form 
+	 input, textarea, select, button, label -->
+<!-- input = memasukkan data di dalam kolom-->
+<!-- textarea = memasukkan data untuk comentar, artikel, pesan, testimone dll -->
+<!-- select = membuat dropdown atau cobo box-->
+<!-- button = membuat tombol -->
+<!-- untuk menandalai elemen2 input -->
+<!-- type input = text, password, radio, check box, submit, reset, button -->
+<!-- name "untuk menentukan 1 pilihan saja" -->
+<!-- button type = submit, reset, dan button -->
+<form>
+	<label for="user nama">user nama : </label>
+	<input type="text" id="user nama">
+	 	<br><br>
+	<label for="password">password : </label>
+	<input type="password" id="password">
+		<br><br>
+	<input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+	<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+		<br><br>
+	<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+	<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+	<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+		<br><br>
+	<textarea></textarea>
+		<br><br>
+	<select>
+		<option>Situbondo</option>
+		<option>Jember</option>
+		<option>Banyuwangi</option>
+	</select>	
+		<br><br>
+	<input type="submit" value="kirim">	<!-- tidak disarankan karena seharunya button yang benar -->
+		<br><br>
+	<button type="submit">kirim</button>
+</form>
+</body>
+</html>

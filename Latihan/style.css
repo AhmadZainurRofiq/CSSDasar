@@ -1,0 +1,54 @@
+body {
+	background-color: skyblue;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 35px;
+	color: green;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+}
+
+#tabel-siswa {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+table {
+	background-color: lightskyblue;
+	border-color: white;
+	margin-top: 50px;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+td {
+	vertical-align: top;
+	border-style: solid;
+	border-color: white;
+}
+
+th, td {
+	padding: 20px;
+}
+
+img {
+	border-radius: 50%;
+}
+
+/* 
+● Margin, properti ini berfungsi untuk mengatur jarak sebuah elemen terhadap
+objek-objek di luar elemen tersebut
+● Padding, properti ini berfungsi untuk mengatur jarak sebuah elemen terhadap
+konten yang ada di dalam mereka*/
